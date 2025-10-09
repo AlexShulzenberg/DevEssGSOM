@@ -2,4 +2,6 @@ text = "Before departure, all students leaving for exchange studies should fill 
 adress_starts = text.find("(") + 1
 adress_ends = text.find(", Tel")
 uchatsya_umu_rasumu_tut = text[adress_starts:adress_ends]
-print(text[adress_starts:adress_ends])
+#print(text[adress_starts:adress_ends])
+
+print("The department address is as below:  ", uchatsya_umu_rasumu_tut)
